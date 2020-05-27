@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": [
-      { "model": "arcanatechnica:block/arcane_pedestal" }
-    ]
+    "facing=north": { "model": "arcanatechnica:block/arcane_pedestal" },
+    "facing=south": { "model": "arcanatechnica:block/arcane_pedestal", "y": 180 },
+    "facing=west": { "model": "arcanatechnica:block/arcane_pedestal", "y": 270 },
+    "facing=east": { "model": "arcanatechnica:block/arcane_pedestal", "y": 90 },
+    "facing=up": { "model": "arcanatechnica:block/arcane_pedestal", "x": -90 },
+    "facing=down": { "model": "arcanatechnica:block/arcane_pedestal", "x": 90 }
   }
 }

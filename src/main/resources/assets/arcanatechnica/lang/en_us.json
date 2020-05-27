@@ -3,5 +3,8 @@
   "block.arcanatechnica.ritual_bricks": "Ritual Bricks",
   "block.arcanatechnica.ritual_stairs": "Ritual Stairs",
   "block.arcanatechnica.arcane_torch": "Arcane Torch",
-  "block.arcanatechnica.arcane_pedestal": "Arcane Pedestal"
+  "block.arcanatechnica.arcane_pedestal": "Arcane Pedestal",
+  "itemGroup.arcana_technica": "Arcana Technica",
+
+  "container.arcane_pedestal": "Arcane Pedestal"
 }

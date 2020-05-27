@@ -12,8 +12,10 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> RITUAL_BRICKS = BLOCKS.register("ritual_bricks",()->new RitualBricks());
+
     public static final RegistryObject<Block> ARCANE_PEDESTAL = BLOCKS.register("arcane_pedestal",()->new ArcanePedestal());
     public static final RegistryObject<Block> ARCANE_TORCH = BLOCKS.register("arcane_torch",()->new ArcaneTorch());
     public static final RegistryObject<Block> ARCANE_WALL_TORCH = BLOCKS.register("arcane_wall_torch",()->new ArcaneWallTorch());
     public static final RegistryObject<Block> RITUAL_STAIRS = BLOCKS.register("ritual_stairs",()->new RitualStairs(RITUAL_BRICKS.get().getDefaultState()));
+
 }

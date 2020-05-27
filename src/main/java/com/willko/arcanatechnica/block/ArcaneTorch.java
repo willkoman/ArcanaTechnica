@@ -1,8 +1,8 @@
 package com.willko.arcanatechnica.block;
 
-import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.Items;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.TorchBlock;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -14,7 +14,7 @@ import java.util.Random;
 public class ArcaneTorch extends TorchBlock {
 
     public ArcaneTorch() {
-        super(TorchBlock.Properties.from(Blocks.TORCH));
+        super(TorchBlock.Properties.from(Blocks.TORCH).lightValue(15));
     }
 
     @OnlyIn(Dist.CLIENT)

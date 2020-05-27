@@ -15,7 +15,7 @@ import java.util.Random;
 
 public class ArcaneWallTorch extends WallTorchBlock {
     public ArcaneWallTorch() {
-        super(Block.Properties.from(Blocks.WALL_TORCH));
+        super(Block.Properties.from(Blocks.WALL_TORCH).lightValue(15));
     }
     @OnlyIn(Dist.CLIENT)
     @Override
