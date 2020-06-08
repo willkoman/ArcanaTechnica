@@ -20,13 +20,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 import javax.annotation.Nullable;
 
 public class ArcanePedestal extends Block {
     public ArcanePedestal() {
-        super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f,30f));
+        super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f,30f).harvestTool(ToolType.PICKAXE));
     }
     @Override
     public void onBlockPlacedBy(World world, BlockPos pos, BlockState state, @Nullable LivingEntity entity, ItemStack stack) {

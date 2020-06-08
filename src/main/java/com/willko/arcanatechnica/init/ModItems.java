@@ -15,6 +15,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ARCANE_BLEND = ITEMS.register("arcane_blend",()->new ArcaneBlend());
     public static final RegistryObject<Item> RITUAL_BRICKS = ITEMS.register("ritual_bricks",()->new BlockItem(ModBlocks.RITUAL_BRICKS.get(),new Item.Properties().group(ArcanaTechnica.TAB_ARCANA)));
+    public static final RegistryObject<Item> ARCANE_ORE = ITEMS.register("arcane_ore",()->new BlockItem(ModBlocks.ARCANE_ORE.get(),new Item.Properties().group(ArcanaTechnica.TAB_ARCANA)));
     public static final RegistryObject<Item> ARCANE_PEDESTAL = ITEMS.register("arcane_pedestal",()->new BlockItem(ModBlocks.ARCANE_PEDESTAL.get(),new Item.Properties().group(ArcanaTechnica.TAB_ARCANA)));
     public static final RegistryObject<Item> RITUAL_STAIRS = ITEMS.register("ritual_stairs",()->new BlockItem(ModBlocks.RITUAL_STAIRS.get(),new Item.Properties().group(ArcanaTechnica.TAB_ARCANA)));
     public static final RegistryObject<Item> ARCANE_TORCH = ITEMS.register("arcane_torch",()->new WallOrFloorItem(ModBlocks.ARCANE_TORCH.get(), ModBlocks.ARCANE_WALL_TORCH.get(), (new Item.Properties()).group(ArcanaTechnica.TAB_ARCANA)));
